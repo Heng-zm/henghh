@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Noto+Sans+Khmer:wght@100..900&display=swap');
+    body{
+        height: 100vh;
+        width: auto;
+        font-family: "Noto Sans Khmer", sans-serif;
+        font-size: 2.5rem;
+        background-color: #272727;
+        color: #e5e5e5;
+    }
+    .heander{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    img{
+        display: flex;
+        color: #e5e5e5;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+    }
+    .tetle1{
+        color: cornflowerblue;
+    }
+    .heander2{
+        margin-top: 20px;
+        font-size: 4.0rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .tetle3{
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+    }
+    .tetle4{
+        font-weight: bold;
+    }
+    .CC{
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.ful{
+    color: #6cff91;
+}
+.G{
+    display: flex;
+    margin-top: -5px;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.4rem;
+}
+.courseCard_courseCard{
+    padding-bottom: 2rem;
+    background-color: #222;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px;
+}
+.courseCard_courseCard1{
+    width: 100%;
+    height: auto;
+}
+.courseCard_courseCard2{
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    color: #dedede;
+    transition: all.2s;
+}
+h3{
+    font-weight: bold;
+    display: block;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+.courseCard_courseDetail__HPc00{
+    text-align: left;
+    color: #bbb;
+    font-size: 2rem;
+    padding: 0 2rem;
+}
+.courseCard_hastage{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+    padding: 0 1.2rem;
+}
+.courseCard_hastage span {
+    color: #79bcff;
+    border-radius: 10px;
+    background-color: hsla(0, 0%,100%,.1);
+    padding: .2rem 1.5rem;
+    font-size: 1.5rem;
+}
+.courseCard{
+    margin-top: 5rem;
+    padding: 0 12rem;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3rem;
+    gap: 3rem;
+    display: grid;
+}
+@media screen and (max-width: 1300px) {
+    .courseCard {
+        padding: 5rem;
+        margin: 5rem;
+        display: inline;
+    }
+    .courseCard_courseCard{
+        margin-top: 40px;
+    }
+}
+</style>
+<body>
+    <div class="heander">
+        <img src="globe.png">
+    </div>
+    <div class="heander2">
+        <span class="tetle1">រៀនម័រ</span>
+        <span class="tetle2">រៀនបន្ថែម</span>
+     </div>
+     <span class="tetle3">គេហទំព័រ reanmore.com ផ្ដល់ឱ្យអ្នកនូវវគ្គសិក្សាដែលមានគុណភាពល្អជាច្រើន។</span>
+     <div class="ful">
+     <div class="CC">
+        <span class="tetle4">ALL COURSES</span>
+    </div>
+    <p class="G">ជ្រើសរើសវគ្គសិក្សាដែលអ្នកពេញចិត្ត</p>
+</div>
+<div class="courseCard">
+<div class="courseCard_courseCard">
+<img class="courseCard_courseCard1" src="htmlcss.webp">
+<h3 class="courseCard_courseCard2">HTML&CSS</h3>
+<p class="courseCard_courseDetail__HPc00">សាងសង់រូបរាង Website ជាមួយនឹងភាសា HTML CSS ជាមុនសិន។</p>
+<div class="courseCard_hastage">
+    <span> # HTML </span>
+    <span> # CSS </span>
+</div>
+</div>
+<div class="courseCard_courseCard">
+    <img class="courseCard_courseCard1" src="js.webp">
+    <h3 class="courseCard_courseCard2">Javascrpt</h3>
+    <p class="courseCard_courseDetail__HPc00">Programming language សម្រាប់ web Development</p>
+    <div class="courseCard_hastage">
+        <span> # HTML </span>
+        <span> # Javascrpt </span>
+    </div>
+</div>
+<div class="courseCard_courseCard">
+    <img class="courseCard_courseCard1" src="react.webp">
+    <h3 class="courseCard_courseCard2">React JS</h3>
+    <p class="courseCard_courseDetail__HPc00">វាជា javaScript library ដ៏ល្បីមួយដើម្បីបង្កើតនូវ UI</p>
+    <div class="courseCard_hastage">
+        <span> # react </span>
+        <span> # javascrpt </span>
+    </div>
+</div>
+<div class="courseCard_courseCard">
+    <img class="courseCard_courseCard1" src="tailwindcss.webp">
+    <h3 class="courseCard_courseCard2">Tailwind CSS</h3>
+    <p class="courseCard_courseDetail__HPc00">ប្រើ CSS ដោយទំនុកចិត្ត និងលឿនរហ័ស</p>
+    <div class="courseCard_hastage">
+        <span> # tailwindcss </span>
+        <span> # CSS </span>
+    </div>
+</div>
+<div class="courseCard_courseCard">
+    <img class="courseCard_courseCard1" src="aftereffect.webp">
+    <h3 class="courseCard_courseCard2">After Effects</h3>
+    <p class="courseCard_courseDetail__HPc00">ចាប់ផ្ដើមដំបូងជាមួយនឹងកម្មវិធីបង្កើត Motion Graphic ដ៏ល្បីមួយ។</p>
+    <div class="courseCard_hastage">
+        <span> # after effect </span>
+    </div>
+</div>
+<div class="courseCard_courseCard">
+    <img class="courseCard_courseCard1" src="typescript.webp">
+    <h3 class="courseCard_courseCard2">Typescript</h3>
+    <p class="courseCard_courseDetail__HPc00">បន្ថែមពីលើអ្វី ដែល Javascript មិនមាន...។</p>
+    <div class="courseCard_hastage">
+        <span> # typescript </span>
+        <span> # react </span>
+    </div>
+</div>
+</div>
+</body>
+</html>
